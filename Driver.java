@@ -5,7 +5,7 @@ public class Driver
    public static void main(String[] args)
    {
        World.setVisible(true);
-       World.reset();
+       //World.reset();
        World.readWorld("BreadCrumbs.kwld");
        World.setDelay(10);
        World.setTrace(false);
